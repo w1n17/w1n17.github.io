@@ -1,0 +1,139 @@
+*, ::before, ::after{
+	box-sizing: border-box;
+}
+
+body{
+background-color: #372E3D;
+color: #fff;
+padding: 0px;
+margin: 0;
+}
+@media screen and (min-width: 600px) {
+    .header1 {  
+      position: relative;
+      float: left;
+      width: 25%;
+     }
+}
+header{
+    background-color: #5F4472;
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-left: 3%;
+    padding: 0;
+    overflow: hidden;
+}
+li {
+    display: inline;  
+    float: left; 
+}
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: x-large;
+    font-style: italic;
+    font-weight: bold;
+}
+.hov1 {
+    color: black;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+  }
+  
+  .hov1:hover {
+    text-decoration-color: #9728e0;
+  }
+  .hov2 {
+    color: black;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+  }
+  
+  .hov2:hover {
+    text-decoration-color: #9728e0;
+  }
+  .hov3 {
+    color: black;
+    text-decoration: underline 0.15em rgba(255, 255, 255, 0);
+    transition: text-decoration-color 300ms;
+  }
+  
+  .hov3:hover {
+    text-decoration-color: #9728e0;
+  }
+div{
+    margin-top: 15%;
+    margin-left: 15%;
+    color: rgb(215, 193, 232);
+    font-family: 'Nova Square', sans-serif;
+}
+h1{
+    padding: auto;
+}
+p{
+    margin-top: 4%;
+    margin-left: 5px;
+    font-size: large;
+}
+img{
+    float: right;
+    margin-right: 20%;
+    position: relative;
+    margin-top: 10%;
+}
+.pulser {
+    width: 30px;
+    height: 30px;
+    background: rebeccapurple;
+    border-radius: 30%;
+    position: relative;
+    margin-left: 12%;
+    margin-top: -7.3%;
+  }
+  
+  .pulser::after {
+    animation: pulse 1000ms cubic-bezier(0.9, 0.7, 0.5, 0.9) infinite;
+  }
+  
+  @keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      transform: scale(1.4);
+      opacity: 0.4;
+    }
+  }
+  .pulser::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: blueviolet;
+    border-radius: 30%;
+  }
+footer{
+    background-color: #221d26;
+    color: #fff;
+    padding: 10px;
+    margin-top: 28.9%;
+}
+footer a{
+    color: black;
+    margin-left: 3%;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    display: inline;  
+    color: #a09ea1
+}
